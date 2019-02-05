@@ -1,0 +1,41 @@
+PODS:
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-camera (1.10.1):
+    - React
+    - react-native-camera/RCT (= 1.10.1)
+    - react-native-camera/RN (= 1.10.1)
+  - react-native-camera/RCT (1.10.1):
+    - React
+  - react-native-camera/RN (1.10.1):
+    - React
+  - React/Core (0.11.0)
+  - RNTextDetector (0.0.6):
+    - React
+    - TesseractOCRiOS (~> 4.0.0)
+  - TesseractOCRiOS (4.0.0)
+
+DEPENDENCIES:
+  - react-native-camera (from `../node_modules/react-native-camera`)
+  - RNTextDetector (from `../node_modules/react-native-text-detector/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - React
+    - TesseractOCRiOS
+
+EXTERNAL SOURCES:
+  react-native-camera:
+    :path: "../node_modules/react-native-camera"
+  RNTextDetector:
+    :path: "../node_modules/react-native-text-detector/ios"
+
+SPEC CHECKSUMS:
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-camera: a8d04ef12749def72cae86b0b8d28c2de891a392
+  RNTextDetector: 8d5be966fb2bfe907703ef37f6fa742180232804
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
+
+PODFILE CHECKSUM: cb166722a74cba6cf54efb5cde71371bde972d89
+
+COCOAPODS: 1.5.3
