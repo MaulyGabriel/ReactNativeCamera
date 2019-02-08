@@ -3,6 +3,8 @@ package com.reactnativecamera;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.reactnative.ivpusic.imagepicker.PickerPackage;
+import fr.bamlab.rnimageresizer.ImageResizerPackage;
 import com.fetchsky.RNTextDetector.RNTextDetectorPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.facebook.react.ReactNativeHost;
@@ -26,6 +28,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new PickerPackage(),
+            new ImageResizerPackage(),
             new RNTextDetectorPackage(),
             new RNCameraPackage()
 

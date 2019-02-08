@@ -60,6 +60,9 @@
 		E1F18EB77DBF4AA2B084CA50 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E126B0150C440F184EECB0F /* SimpleLineIcons.ttf */; };
 		C60E80D4177849FE9ED50FFF /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5024A7167E845EE9685595F /* Zocial.ttf */; };
 		A51873D3CFA54A359E3EEB57 /* libRNOpenAlpr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E1F4AAB1F64A9C972AF9EB /* libRNOpenAlpr.a */; };
+		E6B38195873A45B5AA22E564 /* libRCTImageResizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 623508B2E0C54AE9887824C5 /* libRCTImageResizer.a */; };
+		267E6400717844EDA4862AC7 /* libimageCropPicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E27837ED20384C7DA1101B16 /* libimageCropPicker.a */; };
+		CB61E1BDB5544B19BDCA27B6 /* libRNCropImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C739B560B74BCCBA3F7284 /* libRNCropImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -391,6 +394,12 @@
 		E5024A7167E845EE9685595F /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		3EE8E6B4D9BF40E3B4182AEB /* RNOpenAlpr.xcodeproj */ = {isa = PBXFileReference; name = "RNOpenAlpr.xcodeproj"; path = "../node_modules/react-native-openalpr/ios/RNOpenAlpr.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		43E1F4AAB1F64A9C972AF9EB /* libRNOpenAlpr.a */ = {isa = PBXFileReference; name = "libRNOpenAlpr.a"; path = "libRNOpenAlpr.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		888AB1CFA56A4736919143A8 /* RCTImageResizer.xcodeproj */ = {isa = PBXFileReference; name = "RCTImageResizer.xcodeproj"; path = "../node_modules/react-native-image-resizer/ios/RCTImageResizer.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		623508B2E0C54AE9887824C5 /* libRCTImageResizer.a */ = {isa = PBXFileReference; name = "libRCTImageResizer.a"; path = "libRCTImageResizer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		65749CA7764C47BC9F3E0700 /* imageCropPicker.xcodeproj */ = {isa = PBXFileReference; name = "imageCropPicker.xcodeproj"; path = "../node_modules/react-native-image-crop-picker/ios/imageCropPicker.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		E27837ED20384C7DA1101B16 /* libimageCropPicker.a */ = {isa = PBXFileReference; name = "libimageCropPicker.a"; path = "libimageCropPicker.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E6194D5707164696B9CDF179 /* RNCropImage.xcodeproj */ = {isa = PBXFileReference; name = "RNCropImage.xcodeproj"; path = "../node_modules/react-native-crop-image/ios/RNCropImage.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D7C739B560B74BCCBA3F7284 /* libRNCropImage.a */ = {isa = PBXFileReference; name = "libRNCropImage.a"; path = "libRNCropImage.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -422,6 +431,9 @@
 				62938CBD97B54D9591891C7C /* libRNCamera.a in Frameworks */,
 				0BBD9D5F8D6444BAA5A78EB3 /* libRNTextDetector.a in Frameworks */,
 				A51873D3CFA54A359E3EEB57 /* libRNOpenAlpr.a in Frameworks */,
+				E6B38195873A45B5AA22E564 /* libRCTImageResizer.a in Frameworks */,
+				267E6400717844EDA4862AC7 /* libimageCropPicker.a in Frameworks */,
+				CB61E1BDB5544B19BDCA27B6 /* libRNCropImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +626,9 @@
 				5CF45C9BE0824A95B5067408 /* RNCamera.xcodeproj */,
 				C90639AC9D44449F8C9EF3AC /* RNTextDetector.xcodeproj */,
 				3EE8E6B4D9BF40E3B4182AEB /* RNOpenAlpr.xcodeproj */,
+				888AB1CFA56A4736919143A8 /* RCTImageResizer.xcodeproj */,
+				65749CA7764C47BC9F3E0700 /* imageCropPicker.xcodeproj */,
+				E6194D5707164696B9CDF179 /* RNCropImage.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1288,13 +1303,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Debug;
@@ -1318,13 +1335,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Release;
@@ -1350,6 +1369,9 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Debug;
@@ -1374,6 +1396,9 @@
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Release;
@@ -1405,13 +1430,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Debug;
@@ -1443,13 +1470,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Release;
@@ -1480,13 +1509,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Debug;
@@ -1517,13 +1548,15 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-text-detector/ios",
 					"$(SRCROOT)/../node_modules/react-native-openalpr/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-image-crop-picker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-crop-image/ios",
 				);
 			};
 			name = Release;
