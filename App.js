@@ -71,9 +71,6 @@ const { height, width } = Dimensions.get('window');
         }else{
           this.setState({ textRecognition: "Nenhum texto foi reconhecido".toUpperCase()});
         }
-        
-        
-        
 
       }catch(e){
         alert(e);
@@ -93,11 +90,6 @@ const { height, width } = Dimensions.get('window');
       );
     }
   }
-
- qualquer_coisa = () => {
-  
-  this.takePicture();
-}
 
   render() {
     return (
@@ -136,14 +128,11 @@ const { height, width } = Dimensions.get('window');
 
               <Text>Texto reconhecido:</Text>
 
-              
               <TextInput style={styles.input} 
               value={this.state.textRecognition} 
               editable={true} 
               onChangeText={(textRecognition) => this.setState({textRecognition})}/>
               
-            
-               
               <View style={styles.buttonContainerModal}>
                 
                 <Button  dark  style={styles.buttonModal} onPress={() => {this.setModalVisible(!this.state.modalVisible); }}>

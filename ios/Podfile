@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ReactNativeCamera' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Third party deps podspec link
+  pod 'react-native-camera', path: '../node_modules/react-native-camera'
+  pod 'RNTextDetector', path: '../node_modules/react-native-text-detector/ios'
+
+  target 'ReactNativeCamera-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ReactNativeCameraTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
